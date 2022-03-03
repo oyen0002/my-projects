@@ -1,0 +1,709 @@
+body {
+    color: white;
+    font-family: fangsong;
+    font-weight: normal;
+}
+
+section.home {
+    background: #7678ed;
+    position: relative;
+}
+
+
+
+section.slide {
+    background: #F1DEDE;
+    position: relative;
+}
+
+
+h2#text{
+    position: absolute;
+    bottom: 1px;
+    right: 45%;
+    color:white;
+    font-size: 15px;
+    margin: 0.5px;
+}
+
+
+
+h3#brand-text {
+    position: absolute;
+    bottom: 1px;
+    right: 45%;
+    color: black;
+    font-size: 15px;
+    margin: 0.5px;
+
+}
+
+
+section.slide-2 {
+    background-color: #04a777;
+    position: relative;
+}
+
+h4#travel-text {
+    color: white;
+    position: absolute;
+    right: 50%;
+    bottom: -1rem;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
+
+
+}
+
+
+
+section.slide-3 {
+    background-color: #111d4a;
+    position: relative;
+}
+
+
+
+h5#app-text {
+    color: white;
+    position: absolute;
+    right: 160px;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
+}
+
+img.col-3.z-index-master {
+    padding: 0px;
+    margin: 2rem;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #198754;
+    
+    position: inherit;
+    right: 330px;
+    bottom: -140px;
+    color: black;
+    transition-duration: 0.4s;
+
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: black;
+}
+
+
+/* Work Styles Page */
+
+section.work-page {
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+div.container-2{
+    animation: transition 0.76s;
+    animation-name: divcontainer-2;
+    animation-duration: 5s;
+
+}
+
+@keyframes divcontainer-2 {
+    0% {
+        transform: rotate(0) translateX(-15%);
+        opacity: 0;
+    }
+}
+
+
+
+
+/* About Page Style  Mobile */
+
+section.about-page {
+    width: 100%;
+
+
+}
+
+
+div.about-container h4:nth-child(1) {
+    font-family: fangsong;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+}
+
+div.about-container p:nth-child(2) {
+    font-family: fangsong;
+    font-weight: normal;
+    color: black;
+    font-size: 30px;
+
+}
+
+div.about-container p:nth-child(3) {
+    font-family: fangsong;
+    color: black;
+    font-size: 22px;
+
+}
+
+div.about-container {
+    padding: 2rem;
+}
+
+.ab-container {
+    height: 330px;
+    background-color: #e3d26f;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem
+}
+
+.ab-container {
+    animation-name: ab-container;
+    animation-duration: 3s;
+}
+
+@keyframes ab-container {
+    0% {
+        transform: rotate(0) translateX(-15%);
+        opacity: 0;
+    }
+}
+
+.btn-secondary {
+    color: #000;
+    background-color: #198754;
+    border-color: teal;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-radius: 15px;
+    font-family: Roboto;
+    box-shadow: 0 5px #e6ebe0;
+}
+
+
+h1.abt-head {
+    display: flex;
+    justify-content: center;
+    font-family: fangsong;
+    font-size: 30px;
+    color: black;
+    margin: 1rem;
+}
+
+p.abt-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1rem;
+    font-family: fangsong;
+    color: black;
+
+}
+
+div.abt-text-2 {
+    width: 100%;
+    background-color: #e6ebe0;
+    border-radius: 0 0 10px 10px;
+    font-family: fangsong;
+    color: black;
+}
+
+ul.style-2 {
+    list-style: none;
+    color: black;
+    font-size: 22px;
+}
+
+div.btn-group {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+
+
+
+
+
+/* contact page style  */
+
+section.contact-page {
+    background-color: #e6ebe0;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+div.style {
+    text-align: center;
+    color: black;
+    animation-name: divstyle;
+    animation-duration: 3s;
+}
+
+@keyframes divstyle {
+    0% {
+        transform: rotate(0) translateY(-15%);
+        opacity: 0;
+    }
+}
+
+
+
+/* resume styles  */
+
+section.resume {
+    color: black;
+    font-family: fangsong;
+}
+
+.resume {
+    display: table-footer-group;
+    margin: 50px auto;
+  }
+  
+  .resume .resume_left {
+    background: #e6ebe0;
+    padding: 1rem; 
+  }
+  
+ p.regular{
+     color: #9e4770;
+     font-family: fangsong;
+ }
+  
+  .resume .resume_left .resume_content {
+    padding: 30px;
+  }
+  
+  
+  .resume .resume_left .bold {
+    color: #9e4770;
+    font-family: fangsong;
+  }
+  
+  
+  
+  .resume .resume_item {
+    padding: 25px 0;
+   
+  }
+  
+ 
+  
+  .resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+
+  
+  .resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #fff;
+    position: relative;
+  }
+  
+  
+  .resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_right {
+    background:#e3d26f;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #9e4770;
+  }
+  
+  
+
+
+  
+  
+  
+  
+/* **************************** */
+
+/* footer style */
+
+div#container {
+    background-color: black;
+
+
+}
+div#container_2 {
+    background-color: black;
+    position: relative;
+}
+
+div#container_ab {
+    background-color: black;
+    position: relative;
+    bottom: -200px;
+
+
+}
+
+
+div#container-2 {
+    background-color: black;
+    position: relative;
+  
+
+
+}
+
+div.social-links {
+    max-width: 80px;
+    margin: auto;
+}
+
+p.foot {
+    color: #04a777;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+span {
+    position: absolute;
+    bottom: 0;
+    right: 45%;
+}
+
+
+
+img {
+    width: 100%;
+    padding: 1.5rem;
+}
+/* ************************************************************************************************************************************* */
+@media screen and (min-width: 768px) {
+
+    div.wrap {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.section-1 {
+        display: flex;
+    }
+
+    section.home {
+        width: 70%;
+    }
+
+    section.slide {
+        width: 30%;
+    }
+
+    section.slide-2 {
+        width: 30%;
+    }
+
+    section.slide-3 {
+        width: 70%;
+    }
+
+
+    /* About Page style */
+
+    section.about-page {
+        width: 100%;
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 1rem;
+
+    }
+
+
+    div.about-container p:nth-child(1) {
+        font-family: fangsong;
+        font-weight: bold;
+        color: black;
+        font-size: 50px;
+    }
+
+    div.about-container p:nth-child(2) {
+        font-family: fangsong;
+        font-weight: normal;
+        color: black;
+        font-size: 30px;
+
+    }
+
+    div.about-container p:nth-child(3) {
+        font-family: fangsong;
+        color: black;
+        font-size: 22px;
+
+    }
+
+    div.about-container {
+        position: absolute;
+        left: 13%;
+        transform: translate(10%, 10%);
+    }
+
+    .ab-container {
+        width: 70%;
+        height: 330px;
+        background-color: #e3d26f;
+        border-radius: 20px;
+        display: flex;
+        position: relative;
+        bottom: -50%;
+        left: 13%;
+        margin: 2rem;
+        flex-direction: row;
+    }
+
+    .btn-secondary {
+        color: #000;
+        background-color: #198754;
+        border-color: teal;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        border: none;
+        border-radius: 15px;
+        font-family: Roboto;
+        box-shadow: 0 5px #e6ebe0;
+    }
+
+
+    h1.abt-head {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        width: 40rem;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    p.abt-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 70rem;
+        justify-content: center;
+        margin: 1rem;
+
+    }
+
+    div.abt-text-2 {
+        width: 100%;
+        background-color: #e6ebe0;
+        border-radius: 0 10px 10px 0;
+        padding: 2rem;
+    }
+
+    ul.style-2 {
+        list-style: none;
+        color: black;
+        font-size: 22px;
+
+    }
+
+
+
+
+    /* contact page style */
+
+
+        div.style {
+            display: flex;
+        }
+        div.colum{
+            width: 30%;
+            position: relative; 
+            align-items: center;
+            display: inline-grid;
+            font-family: fangsong;
+        
+        }
+
+    form#contact-form {
+        width: 60%;
+        border: none;
+        outline: none;
+        color: black;
+
+    }
+
+    .btn-primary {
+        color: white;
+        background-color: #198754;
+        position: inherit;
+        right: 330px;
+        bottom: -140px;
+        color: black;
+        transition-duration: 0.7s;
+        border-color: white;
+
+    }
+
+    .btn-primary:hover {
+        background-color: white;
+        color: black;
+    }
+
+
+
+
+
+
+/* resume styles */
+section.resume {
+    color: black;
+}
+
+div#container {
+    background-color: #e3d26f;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+
+ul.style {
+    list-style: square;
+}
+/* *************** */
+
+.resume {
+    width: 1000px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+  }
+  
+  .resume .resume_left {
+    width: 380px;
+    background: #e6ebe0;
+    height: 50%;
+  }
+  
+ p.regular{
+     color: #9e4770;
+ }
+  
+  .resume .resume_left .resume_content {
+    padding: 30px;
+  }
+  
+  
+  .resume .resume_left .bold {
+    color: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_item {
+    padding: 25px 0;
+   
+  }
+  
+ 
+  
+  .resume .resume_left ul li {
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+
+  
+  .resume .resume_left .resume_skills ul li .skill_name {
+    width: 25%;
+  }
+  
+  .resume .resume_left .resume_skills ul li .skill_progress {
+    width: 60%;
+    margin: 0 5px;
+    height: 5px;
+    background: #fff;
+    position: relative;
+  }
+  
+  
+  .resume .resume_left .resume_skills ul li .skill_progress span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #9e4770;
+  }
+  
+  
+  
+  .resume .resume_right {
+    width: 620px;
+    background:#e3d26f;
+    padding: 25px;
+  }
+  
+  .resume .resume_right .bold {
+    color: #9e4770;
+  }
+
+/* index styles */
+h5#app-text {
+    color: white;
+    position: absolute;
+    right: 50%;
+    font-size: 15px;
+    bottom: 1px;
+    margin: 0.5px;
+}
+
+
+    /* footer style */
+
+    div.social-links {
+        display: flex;
+        justify-content: center;
+        max-width: none;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+}
